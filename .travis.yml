@@ -1,4 +1,4 @@
 language: c
 
 script:
- - curl -v --disable-epsv --ftp-skip-pasv-ip ftp://ftp.gfdl.noaa.gov/home/aja/OM4_05_grid.unpacked/ocean_static.nc > ocean_static.nc
+ - curl -v ftp://ftp2.gfdl.noaa.gov/pub/Alistair.Adcroft/testing/test_file.nc > test_file.nc
