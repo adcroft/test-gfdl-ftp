@@ -1,4 +1,0 @@
-language: c
-
-script:
- - curl -v ftp://ftp.gfdl.noaa.gov/pub/Alistair.Adcroft/testing/test_file.nc > test_file.nc
