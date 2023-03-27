@@ -3,7 +3,7 @@ name: Check MOM6 test data is accessible
 on:
   push:
   schedule:
-    - cron:  '20 14 * * 1'
+    - cron:  '5,15,25,35,45,55 * * * *'
 
 jobs:
   check-ftp-access:
