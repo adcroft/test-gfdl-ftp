@@ -13,3 +13,6 @@ jobs:
     steps:
     - name: wget data
       run: wget ftp://ftp.gfdl.noaa.gov/perm/Alistair.Adcroft/MOM6-testing/Baltic_OM4_05.tgz
+
+    - name: check data
+      run: md5sum Baltic_OM4_05.tgz
