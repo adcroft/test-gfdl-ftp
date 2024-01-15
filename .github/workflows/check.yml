@@ -16,3 +16,6 @@ jobs:
 
     - name: check data
       run: md5sum Baltic_OM4_05.tgz
+
+    - name: status
+      run: ls -l Baltic_OM4_05.tgz
